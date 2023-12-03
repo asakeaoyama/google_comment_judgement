@@ -1,10 +1,9 @@
 Outline:
 
 It's an application in order to judge comments via neural network model and tokenizer produced by BERT, Transformer.
-After users enter the comment in to the program, it will output "good" or "bad" corresponding the input comment.
-Users can send feedbacks for the judgement. 
-
-The feedbacks will write back to the dataset which will used for next training.
+After users enter the comment into the program, it will output "good" or "bad" corresponding the input comment.
+Users can send feedbacks for the judgement.
+The feedbacks will write back to the dataset which will be used for next training.
 
 Program Structure:
 
