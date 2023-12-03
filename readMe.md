@@ -8,33 +8,33 @@ The feedbacks will write back to the dataset which will used for next training.
 
 Program Structure:
 
--google_comment_judgement
+    -google_comment_judgement
 
-|----judgement_function
-
-|   |-----comment_judge.ipynb
-
-|   |-----comment_judge.py
-
-|   |-----BertClassifier.py
-
-|   |-----DataSet.py 
-
-|-----training 
-
-|   |-----googleReviewBERTonServer.ipynb
-
-|   |-----logs
-
-|   |-----models
-
-|-----database
-
-    |-----fetchData.py
-
-    |-----urlSet.csv
-
-    |-----commentData.csv
+    |----judgement_function
+    
+    |   |-----comment_judge.ipynb
+    
+    |   |-----comment_judge.py
+    
+    |   |-----BertClassifier.py
+    
+    |   |-----DataSet.py 
+    
+    |-----training 
+    
+    |   |-----googleReviewBERTonServer.ipynb
+    
+    |   |-----logs
+    
+    |   |-----models
+    
+    |-----database
+    
+        |-----fetchData.py
+    
+        |-----urlSet.csv
+    
+        |-----commentData.csv
 
 
 User Guide:
